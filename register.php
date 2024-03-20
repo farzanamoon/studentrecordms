@@ -251,9 +251,9 @@ while($res=mysqli_fetch_array($query)){ ?>
                                                     <select class="form-control" name="income" id="income"
                                                         required="required">
                                                         <option VALUE="">SELECT</option>
-                                                        <option VALUE="200000">200000</option>
-                                                        <option value="500000">500000</option>
-                                                        <option value="700000">700000</option>
+                                                        <option VALUE="200000">Less than 20000</option>
+                                                        <option value="500000"> around 500000</option>
+                                                        <option value="700000">more than 700000</option>
 
                                                     </select>
                                                 </div>
@@ -267,10 +267,7 @@ while($res=mysqli_fetch_array($query)){ ?>
                                                         required="required">
                                                         <option VALUE="">SELECT</option>
                                                         <option VALUE="general">General</option>
-                                                        <option value="obc">OBC</option>
-                                                        <option value="sc">SC</option>
-                                                        <option value="st">ST</option>
-                                                        <option value="other">Other</option>
+                                                        <option value="Freedom Fighter">OBC</option>
                                                     </select>
                                                 </div>
                                             </div>
